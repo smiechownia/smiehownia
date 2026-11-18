@@ -62,6 +62,4 @@ el("random").onclick=()=>{const j=jokes[Math.floor(Math.random()*jokes.length)];
 el("add").onclick=()=>{const body=el("newJoke").value.trim(),cat=el("newCategory").value.trim()||"Suche żarty";if(!body){el("notice").textContent="Najpierw wpisz treść żartu.";return}jokes.unshift([cat,body]);el("newJoke").value="";el("notice").textContent="Dodano żart lokalnie — widzisz go tylko w tej przeglądarce.";render()};
 render();
 </script>
-
-<boody></html>
 </body></html>
